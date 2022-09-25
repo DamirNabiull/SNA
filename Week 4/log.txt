@@ -1,0 +1,8 @@
+11-Sep-2012 00:00:00 clojure.contrib.logging$fn__43$impl_write_BANG___51 invoke
+INFO: creditAcc(args=[1506112834429596390 7080851004 4500])
+11-Sep-2012 00:00:00 clojure.contrib.logging$fn__43$impl_write_BANG___51 invoke
+INFO: callProf|tupsCredit|180|[1506112834429596390 7080851004 45]
+11-Sep-2012 00:00:00 clojure.contrib.logging$fn__43$impl_write_BANG___51 invoke
+INFO: creditAcc(args=[1506112834429596390 7080851004 4500]) -> done.
+11-Sep-2012 00:00:00 clojure.contrib.logging$fn__43$impl_write_BANG___51 invoke
+INFO: return(1506112834429596390,0)
