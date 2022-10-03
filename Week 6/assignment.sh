@@ -1,8 +1,16 @@
 #!/bin/bash
 
-declare -A MainMenu=([3]="System information" [2]="OS components" [1]="exit")
-declare -A SytemInfoSubmenu=([4]="Print kernel" [3]="Print architecture" [2]="View logged in users" [1]="exit")
-declare -A OSComponentsSubmenu=([4]="Verify EFI" [3]="List block devices" [2]="First boot device" [1]="exit")
+declare -A MainMenu=([3]="System information" 
+                     [2]="OS components" 
+                     [1]="exit")
+declare -A SytemInfoSubmenu=([4]="Print kernel" 
+                             [3]="Print architecture" 
+                             [2]="View logged in users" 
+                             [1]="exit")
+declare -A OSComponentsSubmenu=([4]="Verify EFI" 
+                                [3]="List block devices" 
+                                [2]="First boot device" 
+                                [1]="exit")
 IsExit=false
 
 while true;
@@ -26,7 +34,7 @@ do
                     ;;
                 "View logged in users")
                     echo "USER | LOGIN@ | WHAT"
-                    echo "$(w -h | awk -F " " 'BEGIN { OFS = " | " } {print $1, $4, $8}')"
+                    echo "$(w -h | awk -F " " 'BEGIN {OFS = " | "} {print $1,$4,$8}')"
                     break
                     ;;
                 "exit")
