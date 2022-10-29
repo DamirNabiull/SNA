@@ -1,0 +1,102 @@
+ 21:51:03 up  3:29,  1 user,  load average: 0.54, 0.82, 0.80n
+Inode usage:
+
+Файл.система    Iнодов IИспользовано IСвободно IИспользовано% Cмонтировано в
+udev           2018061           624   2017437             1% /dev
+tmpfs          2027130          1185   2025945             1% /run
+/dev/nvme0n1p2 3727360        543071   3184289            15% /
+tmpfs          2027130            64   2027066             1% /dev/shm
+tmpfs          2027130             5   2027125             1% /run/lock
+tmpfs          2027130            19   2027111             1% /sys/fs/cgroup
+/dev/loop0          29            29         0           100% /snap/bare/5
+/dev/loop3       10858         10858         0           100% /snap/core18/2560
+/dev/loop2       11796         11796         0           100% /snap/core20/1611
+/dev/loop1        1004          1004         0           100% /snap/chromium/2117
+/dev/loop4       12845         12845         0           100% /snap/core/13741
+/dev/loop5        1004          1004         0           100% /snap/chromium/2136
+/dev/loop7       10858         10858         0           100% /snap/core18/2566
+/dev/loop6        3981          3981         0           100% /snap/code/110
+/dev/loop20      18500         18500         0           100% /snap/gnome-3-34-1804/72
+/dev/loop8       12992         12992         0           100% /snap/core22/275
+/dev/loop10      18500         18500         0           100% /snap/gnome-3-34-1804/77
+/dev/loop14      76177         76177         0           100% /snap/gtk-common-themes/1534
+/dev/loop9       13283         13283         0           100% /snap/core22/310
+/dev/loop15        486           486         0           100% /snap/snapd/17336
+/dev/loop19      43343         43343         0           100% /snap/postman/184
+/dev/loop18      17275         17275         0           100% /snap/snap-store/599
+/dev/loop13      27593         27593         0           100% /snap/telegram-desktop/4256
+/dev/loop22      12845         12845         0           100% /snap/core/13886
+/dev/loop11      18121         18121         0           100% /snap/gnome-3-38-2004/115
+/dev/loop12      18272         18272         0           100% /snap/gnome-3-38-2004/119
+/dev/loop21        486           486         0           100% /snap/snapd/17029
+/dev/loop16      76208         76208         0           100% /snap/gtk-common-themes/1535
+/dev/loop17      27599         27599         0           100% /snap/telegram-desktop/4249
+/dev/loop26       3981          3981         0           100% /snap/code/111
+/dev/loop24      11882         11882         0           100% /snap/core20/1623
+/dev/loop25      17311         17311         0           100% /snap/snap-store/558
+/dev/loop23      43193         43193         0           100% /snap/postman/183
+/dev/nvme0n1p1       0             0         0              - /boot/efi
+tmpfs          2027130           119   2027011             1% /run/user/1000
+
+Memory usage:
+
+              всего        занято        свободно      общая  буф./врем.   доступно
+Память:       15836        3011        8440         747        4384       11757
+Подкачка:        2047           0        2047
+
+Disk usage:
+
+Файл.система   1K-блоков Использовано Доступно Использовано% Cмонтировано в
+udev             8072244            0  8072244            0% /dev
+tmpfs            1621708         2132  1619576            1% /run
+/dev/nvme0n1p2  58318836     38194896 17129048           70% /
+tmpfs            8108520        20836  8087684            1% /dev/shm
+tmpfs               5120            4     5116            1% /run/lock
+tmpfs            8108520            0  8108520            0% /sys/fs/cgroup
+/dev/loop0           128          128        0          100% /snap/bare/5
+/dev/loop3         56960        56960        0          100% /snap/core18/2560
+/dev/loop2         63488        63488        0          100% /snap/core20/1611
+/dev/loop1        146944       146944        0          100% /snap/chromium/2117
+/dev/loop4        117760       117760        0          100% /snap/core/13741
+/dev/loop5        146944       146944        0          100% /snap/chromium/2136
+/dev/loop7         56960        56960        0          100% /snap/core18/2566
+/dev/loop6        233344       233344        0          100% /snap/code/110
+/dev/loop20       224256       224256        0          100% /snap/gnome-3-34-1804/72
+/dev/loop8         72192        72192        0          100% /snap/core22/275
+/dev/loop10       224256       224256        0          100% /snap/gnome-3-34-1804/77
+/dev/loop14        83328        83328        0          100% /snap/gtk-common-themes/1534
+/dev/loop9         74624        74624        0          100% /snap/core22/310
+/dev/loop15        49152        49152        0          100% /snap/snapd/17336
+/dev/loop19       192896       192896        0          100% /snap/postman/184
+/dev/loop18        47104        47104        0          100% /snap/snap-store/599
+/dev/loop13       358400       358400        0          100% /snap/telegram-desktop/4256
+/dev/loop22       117760       117760        0          100% /snap/core/13886
+/dev/loop11       354688       354688        0          100% /snap/gnome-3-38-2004/115
+/dev/loop12       354688       354688        0          100% /snap/gnome-3-38-2004/119
+/dev/loop21        49152        49152        0          100% /snap/snapd/17029
+/dev/loop16        93952        93952        0          100% /snap/gtk-common-themes/1535
+/dev/loop17       362240       362240        0          100% /snap/telegram-desktop/4249
+/dev/loop26       233344       233344        0          100% /snap/code/111
+/dev/loop24        64768        64768        0          100% /snap/core20/1623
+/dev/loop25        55552        55552        0          100% /snap/snap-store/558
+/dev/loop23       192128       192128        0          100% /snap/postman/183
+/dev/nvme0n1p1   1071040        51228  1019812            5% /boot/efi
+tmpfs            1621704           80  1621624            1% /run/user/1000
+
+System log:
+
+Oct 29 21:50:26 dale-nitro task3.sh[9044]: Host: 127.0.0.1:8080
+Oct 29 21:50:26 dale-nitro task3.sh[9044]: User-Agent: curl/7.68.0
+Oct 29 21:50:26 dale-nitro task3.sh[9044]: Accept: */*
+Oct 29 21:50:26 dale-nitro task3.sh[9044]: #015
+Oct 29 21:50:45 dale-nitro task3.sh[9830]: GET / HTTP/1.1
+Oct 29 21:50:45 dale-nitro task3.sh[9830]: Host: 127.0.0.1:8080
+Oct 29 21:50:45 dale-nitro task3.sh[9830]: User-Agent: curl/7.68.0
+Oct 29 21:50:45 dale-nitro task3.sh[9830]: Accept: */*
+Oct 29 21:50:45 dale-nitro task3.sh[9830]: #015
+Oct 29 21:51:02 dale-nitro task3.sh[9843]: GET / HTTP/1.1
+Oct 29 21:51:02 dale-nitro task3.sh[9843]: Host: 127.0.0.1:8080
+Oct 29 21:51:02 dale-nitro task3.sh[9843]: User-Agent: curl/7.68.0
+Oct 29 21:51:02 dale-nitro task3.sh[9843]: Accept: */*
+Oct 29 21:51:02 dale-nitro task3.sh[9843]: #015
+Oct 29 21:51:02 dale-nitro systemd[1]: Condition check resulted in Daily apt upgrade and clean activities being skipped.
